@@ -1,0 +1,251 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This document is based upon:
+%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.55\textwidth} % 55% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Shrey Pasricha}}}}}
+	\vspace{6pt}
+
+	{
+		\huge Student (New York University) \\
+		\LARGE Computer Science \& Computer Engineering
+	}
+\end{minipage}
+\begin{minipage}[t]{0.30\textwidth} % 30% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	\icon{MapMarker}{12}{New York City}\\
+	\icon{Phone}{12}{Phone Number}\\
+	\icon{At}{12}{\href{mailto:shrey.pasricha@gmail.com}{shrey.pasricha@gmail.com}}\\
+\end{minipage}
+\begin{minipage}[t]{0.15\textwidth} % 15% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\icon{Linkedin}{12}{\href{https://www.linkedin.com/in/shrey-pasricha-088406237}{LinkedIn}}\\
+	\icon{Github}{12}{\href{https://github.com/Cosmic-Goat}{Github}}\\
+	\icon{Code}{12}{\href{https://devpost.com/shreypasricha}{Devpost}}\\
+\end{minipage}
+
+\vspace{0.2cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS, AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	Maker. Creator. Engineer. Developer. Hobbyist. \\
+
+	I'm a Computer Science and Computer Engineering student at NYU,  \\
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{Creativity}{90}
+		\baritem{Problem Solving}{100}
+		\baritem{Writing}{70}
+		\baritem{Management}{80}
+		\baritem{Salesmanship}{30}
+		\baritem{Soldering}{50}
+	\end{barchart}
+\end{minipage}
+
+I'm passionate about engineering technologies at the crossroads of hardware and software - solutions that make unique use of a full tech stack, from the low-level intricacies of machine code to the high level interactivity of user-facing features.
+Projects I've worked on that exemplify these qualities include
+autonomous \href{https://devpost.com/software/phoenix-3nzy29}{fire fighting drones} to combat blazes in remote areas,
+affordable \href{https://github.com/Cosmic-Goat/ViKi}{medical wearables} for under-served communities,
+and a full-body \href{https://github.com/Cosmic-Goat/Track-O-Tron}{VR Tracking solution} made for under \$100.
+
+
+\hfill % Whitespace between
+
+\cvsect{Years of Experience}
+
+\vspace{-8pt}
+\cvsubsect{Programming Languages}
+\begin{center}
+	\bubbles{
+	8/{C / C++},
+	6/{Java / Kotlin},
+	6/{JavaScript / TypeScript},
+	4/{C\# / .NET},
+	3/{Julia},
+	3/{Python},
+	1/{Rust}
+	}{1.4}
+\end{center}
+
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\cvsubsect{Technologies}
+	\vspace{-10pt}
+	\begin{center}
+		\bubbles{
+		6/{HTML / CSS},
+		6/{PlatformIO (Arduino)},
+		4/{Unity},
+		1/{ReactJS}
+		}{1.1}
+	\end{center}
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\cvsubsect{Skills \& Software}
+	\begin{center}
+		\bubbles{
+		8/{Embedded Dev},
+		6/{Web Dev},
+		4/{\LaTeX}
+		}{1.2}
+	\end{center}
+\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+\vspace{10pt}
+\cvsect{Career Experience}
+
+\begin{entrylist}
+	\entry
+	{2019 -- 2020}
+	{Lead Engineer for Virtual Reality \& Augmented Reality}
+	{\href{https://www.techrow.org}{TechRow}}
+	{
+	  Lead and managed team of two other developers to create an educational VR / AR video streaming platform.
+	  Designed front-end and back-end architecture to facilitate streaming content to both web (via A-Frame / Three.js embedded in React.js) and PC / Mobile devices (via Unity Game Engine).
+	  \\
+	  \texttt{JavaScript}\slashsep\texttt{TypeScript}\slashsep\texttt{React.js}\slashsep\texttt{Firebase \& GCP}\slashsep\texttt{C\#}\slashsep\texttt{Unity}
+	}
+
+	\entry
+	{2019\\\footnotesize{Summer}}
+	{Machine Learning / AI Intern}
+	{\href{https://intellectseec.com}{Intellect SEEC}}
+	{
+		Developed sentiment analysis classifier over the course of three
+		weeks for use in aggregating and evaluating business review data.
+		My program was used to analyse data from Glassdoor and extract
+		employee sentiment for 300,000 businesses. This internship fostered my skills in
+		Python and Machine Learning.
+		\\ \texttt{Python}\slashsep\texttt{TensorFlow}\slashsep\texttt{SciPy}\slashsep\texttt{Linux}
+	 }
+
+	\entry
+	{2018 -- 2019}
+	{Club President}
+	{\href{https://ridgecompsci.club}{Ridge Computer Science Club}}
+	{
+		Organised and led computer science club at my high school that held weekly meetings and attended hackathons.
+		Regularly taught computer science and engineering concepts to members.
+		Led organiser team and created ‘RidgeHacks’, our school’s first hackathon.
+		Spearheaded club engineering projects, such as a custom IOT LED display board and the RidgeHacks website.
+		\\
+		\texttt{C++}\slashsep\texttt{Arduino}\slashsep\texttt{PlatformIO}\slashsep\texttt{JavaScript}\slashsep\texttt{HTML}\slashsep\texttt{CSS}
+	}
+
+	\entry
+	{2017 -- 2019}
+	{Volunteer Developer \& Designer}
+	{\href{http://www.legworkforlungs.org}{Legwork for Lungs}}
+	{
+		Volunteered as developer for student-run cancer charity.
+		Fully created website on my own that raised \$3,000+ in donations and managed over 500 store orders, along with backend database handling.
+		Designed marketing materials such as stickers, shirts, and social media posts to advertise website.
+		\\
+		\texttt{JavaScript}\slashsep\texttt{HTML}\slashsep\texttt{CSS}\slashsep\texttt{Google Cloud Platform}\slashsep\texttt{Wix}
+	}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+	{2019 -- 2024}
+	{B.S. in Computer Science \& B.S in Computer Engineering}
+	{New York University}
+	{
+		I am a rising fourth year in the Dual Degree Program at NYU between our College of Arts and Sciences and our Tandon School of Engineering.
+		This unique combination of rigorous theoretical fundamentals and practical engineering application provides both a depth \textit{and} breadth of experience, preparing me to tackle a wide variety of real-world engineering challenges via optimised solutions based on the best-fitting technologies.
+	}
+
+	\entry
+	{2015 -- 2019}
+	{High School Diploma}
+	{Ridge High School}
+	{I went to Ridge High School in Basking Ridge, NJ, one of the top rated high schools in the state. Courses of particular pride and interest include Robotics, AP Computer Science, AP Physics 1 and C, and AP Calculus BC.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+
+	\textbf{English} - Native \\
+	\textbf{Hindi} - Proficient \\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Hobbies}
+
+	I love... \lorem
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Non profit}
+
+	I help... \lorem
+\end{minipage}
+
+%----------------------------------------------------------------------------------------
+
+% \vspace{30pt}
+% Created in \LaTeX.
+% The source code for this document is available on my  \href{https://github.com/Cosmic-Goat?tab=repositories}{Github}!
+
+\end{document}
