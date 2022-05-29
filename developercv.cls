@@ -176,7 +176,7 @@
 
 % Command to output a bubble at a specific position with a specific size
 \newcommand{\bubble}[6]{
-	\filldraw[fill=black, draw=none, text=white] (#1*#6,0.5) circle ({(#3+5)/50}) node {#3}; % Bubble
+	\filldraw[fill=black, draw=none, text=white] (#1*#6,0.5) circle ({(#3+2)/35}) node {#3}; % Bubble
 	\node[align=center, text width=1.8cm, align=center] at (#1*#6,0.9) {#4}; % Label
 }
 
