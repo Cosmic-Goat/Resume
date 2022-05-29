@@ -23,6 +23,8 @@
 \documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
 %----------------------------------------------------------------------------------------
 
+\usepackage{enumitem}
+
 \begin{document}
 
 %----------------------------------------------------------------------------------------
@@ -93,49 +95,57 @@ autonomous \href{https://devpost.com/software/phoenix-3nzy29}{fire fighting dron
 affordable \href{https://github.com/Cosmic-Goat/ViKi}{medical wearables} for under-served communities,
 and a full-body \href{https://github.com/Cosmic-Goat/Track-O-Tron}{VR Tracking solution} made for under \$100.
 
-
 \hfill % Whitespace between
 
-\cvsect{Years of Experience}
+\cvsect{Technical Experience}
+\vspace{-16pt}
 
-\vspace{-8pt}
-\cvsubsect{Programming Languages}
-\begin{center}
-	\bubbles{
-	8/{C / C++},
-	6/{Java / Kotlin},
-	6/{JavaScript / TypeScript},
-	4/{C\# / .NET},
-	3/{Julia},
-	3/{Python},
-	1/{Rust}
-	}{1.4}
-\end{center}
-
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\cvsubsect{Programming Languages}
+	\begin{itemize}[align=left, leftmargin=5em, itemindent=0pt, labelwidth=5em]
+		\item[\textbf{Expert:}] C, Java, JavaScript,
+		\item[\textbf{Proficient:}] C++, Rust, Kotlin, TypeScript
+		\item[\textbf{Comptent:}] C\#, Julia, Python, Lua, Bash
+		\item[\textbf{Familiar:}] Lisp (Emacs, Fennel), PowerShell
+	\end{itemize}
+	\cvsubsect{Skills}
+	\begin{itemize}[align=left, leftmargin=5em, itemindent=0pt, labelwidth=5em]
+		\item[\textbf{Expert:}] Full Stack Web Dev, Game Dev, Linux
+		\item[\textbf{Proficient:}] Embedded Dev
+		\item[\textbf{Comptent:}] Soldering, CAD, 3D Printing
+		\item[\textbf{Familiar:}] Laser Cutting
+	\end{itemize}
+\end{minipage}
+\hfill % Whitespace between
 \begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
 	\cvsubsect{Technologies}
-	\vspace{-10pt}
-	\begin{center}
-		\bubbles{
-		6/{HTML / CSS},
-		6/{PlatformIO (Arduino)},
-		4/{Unity},
-		1/{ReactJS}
-		}{1.1}
-	\end{center}
-\end{minipage}
-\hfill % Whitespace between
-\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
-	\cvsubsect{Skills \& Software}
-	\begin{center}
-		\bubbles{
-		8/{Embedded Dev},
-		6/{Web Dev},
-		4/{\LaTeX}
-		}{1.2}
-	\end{center}
+	\begin{itemize}[align=left, leftmargin=5em, itemindent=0pt, labelwidth=5em]
+		\item[\textbf{Expert:}] HTML/CSS, Node.js, PlatformIO, Arduino
+		\item[\textbf{Proficient:}] ReactJS, Unity, SteamVR, GCP, Firebase, Azure
+		\item[\textbf{Comptent:}] WebGL/OpenGL, Docker
+		\item[\textbf{Familiar:}] Unreal 4
+	\end{itemize}
+
+	\cvsubsect{Software}
+	\begin{itemize}[align=left, leftmargin=5em, itemindent=0pt, labelwidth=5em]
+		\item[\textbf{Expert:}] Git, GitHub, BitBucket, Jira
+		\item[\textbf{Proficient:}] Blender, Emacs, IntelliJ
+		\item[\textbf{Comptent:}] Fusion 360, KiCad, Photoshop, Illustrator, Emacs
+		\item[\textbf{Familiar:}] GIMP, Visual Studio
+	\end{itemize}
 \end{minipage}
 
+\hfill
+
+\cvsubsect{Years Using}
+\begin{center}
+	\bubbles{
+	8/{C/C++},
+	6/{PlatformIO (Arduino)},
+	4/{Unity},
+	1/{ReactJS}
+	}{1.2}
+\end{center}
 
 %----------------------------------------------------------------------------------------
 %	EXPERIENCE
